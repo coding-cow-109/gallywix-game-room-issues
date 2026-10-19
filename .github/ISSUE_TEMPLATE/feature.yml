@@ -1,0 +1,24 @@
+name: Idea or suggestion
+description: A new game, a feature, or something that could be better
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What's your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it make the Game Room better?
+  - type: textarea
+    id: details
+    attributes:
+      label: How should it work?
+      description: Any details on how it would look or play.
+  - type: textarea
+    id: refs
+    attributes:
+      label: Pictures or examples
+      description: Mockups, screenshots, or links to something similar.
