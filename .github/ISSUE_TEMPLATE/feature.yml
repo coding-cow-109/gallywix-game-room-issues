@@ -9,16 +9,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: why
-    attributes:
-      label: Why would it make the Game Room better?
-  - type: textarea
     id: details
     attributes:
-      label: How should it work?
-      description: Any details on how it would look or play.
-  - type: textarea
-    id: refs
-    attributes:
-      label: Pictures or examples
-      description: Mockups, screenshots, or links to something similar.
+      label: How should it work? (optional)
+      description: Any details, pictures or examples.

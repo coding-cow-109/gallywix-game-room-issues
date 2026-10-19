@@ -6,7 +6,7 @@ This is the public place to report problems with, or suggest ideas for, the **Ga
 
 1. Go to the [Issues tab](../../issues) and click **New issue**.
 2. Pick **Bug report** or **Idea or suggestion**.
-3. Fill in the form. Screenshots and error messages help a lot.
+3. Fill in the short form.
 
 You need a free GitHub account to open an issue.
 

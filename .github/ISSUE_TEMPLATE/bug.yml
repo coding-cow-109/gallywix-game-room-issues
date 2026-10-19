@@ -2,9 +2,6 @@ name: Bug report
 description: Something broke or doesn't work the way it should
 labels: [bug]
 body:
-  - type: markdown
-    attributes:
-      value: Thanks for helping make the Game Room better! The more detail you give, the faster it gets fixed.
   - type: dropdown
     id: client
     attributes:
@@ -15,56 +12,16 @@ body:
         - WoW Forever
     validations:
       required: true
-  - type: input
-    id: version
-    attributes:
-      label: Addon version
-      description: Shown in the CurseForge app, or in the in-game AddOns list.
-      placeholder: e.g. 2.2.0
-  - type: input
-    id: area
-    attributes:
-      label: Which game or screen?
-      placeholder: e.g. Festival of Lanterns, poker, the main menu
   - type: textarea
-    id: steps
+    id: what
     attributes:
-      label: What were you doing?
-      description: Step by step, so it can be reproduced.
-      placeholder: |
-        1. Opened the Game Room with /ggr
-        2. Played a few rounds of ...
-        3. ...
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: What did you expect to happen?
-    validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: What happened instead?
+      label: What happened?
+      description: What you were doing, what you expected, and what happened instead.
+      placeholder: Playing Deadmines Dig, I swapped a Pickaxe and the board froze.
     validations:
       required: true
   - type: textarea
     id: error
     attributes:
-      label: Error message (if any)
-      description: If an error popped up, paste the full text. With BugSack installed, click its minimap icon to copy it.
-      render: text
-  - type: textarea
-    id: media
-    attributes:
-      label: Screenshots or video
-      description: Drag images or videos in here.
-  - type: dropdown
-    id: frequency
-    attributes:
-      label: How often does it happen?
-      options:
-        - Every time
-        - Sometimes
-        - Only once
+      label: Error or screenshot (optional)
+      description: Paste any error text (BugSack's minimap icon copies it), or drag in a screenshot.
